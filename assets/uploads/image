@@ -1,0 +1,30 @@
+ <div class="form-group">
+    <label for="name">Product Name *</label>
+    <input type="text" class="form-control" name="name" required />
+</div>
+<div class="form-group">
+    <label for="description">Description</label>
+    <textarea name="description" class="form-control" rows="3"></textarea>
+</div>
+<div class="form-group">
+    <label for="name">Price *</label>
+    <input type="text" class="form-control" name="price" required />
+</div>
+<div class="form-group">
+    <label for="name">Quantity *</label>
+    <input type="text" class="form-control" name="quantity" required />
+</div>
+<div class="form-group">
+    <label for="name">Image *</label>
+    <input type="file" class="form-control" name="image" />
+</div>
+<div class="form-group">
+    <label>Status (UnChecked=Visible, Checked=Hidden)</label>
+    <br/>
+    <input type="checkbox" name="status" style="width:30px;height:30px;" />
+</div>
+</div>
+<div class="col-md-12 mb-2">
+<!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+<button type="submit" name="saveProduct" class="btn btn-primary">Update</button>
+</div>

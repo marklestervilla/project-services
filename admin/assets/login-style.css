@@ -1,0 +1,70 @@
+/* login-style.css */
+
+/* Center the login box vertically and horizontally */
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-box {
+    width: 350px;
+  }
+  
+  /* Style the login logo */
+  .login-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  /* Style the card containing the login form */
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the login form */
+  .login-card-body {
+    padding: 20px;
+  }
+  
+  /* Style the input fields and icons */
+  .input-group {
+    margin-bottom: 1rem;
+  }
+  
+  .input-group-text {
+    background-color: #f8f9fa;
+    border: none;
+  }
+  
+  /* Style the eye icon for password visibility toggle */
+  #togglePassword {
+    cursor: pointer;
+  }
+  
+  /* Style the sign-in button */
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  /* Style the social auth links */
+  .social-auth-links {
+    margin-top: 1.5rem;
+  }
+  
+  /* Adjust the spacing between social auth links */
+  .social-auth-links a {
+    margin-bottom: 0.5rem;
+  }
+  
+  
